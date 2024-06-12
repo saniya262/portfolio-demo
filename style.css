@@ -1,0 +1,228 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+    font-family: "Playfair Display", serif;
+    box-sizing: border-box;
+}
+
+nav{
+
+
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    justify-content: center;
+    background-color: rgb(7, 65, 7);
+    position: sticky;
+   
+   
+}
+
+nav ul{
+  
+   
+    display: flex;
+    position: sticky;
+    
+}
+
+nav ul a{
+
+   color: white;
+   text-decoration: none;
+   margin: 20px;
+   font-size: large;
+   font-weight: bolder;
+   position: sticky;
+   
+
+}
+
+
+nav ul a:hover{
+
+    text-shadow: 2px 4px 6px rgb(0, 0, 0);
+    
+
+
+}
+
+video{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.overlay{
+    position: absolute;
+    top: 70%;
+    left: 45%;
+}
+
+h1{
+    color: white;
+}
+
+h1:hover{
+
+    color: black;
+    text-decoration: underline;
+    text-shadow: 2px 4px 6px black;
+}
+
+span{
+
+    color: rgb(23, 78, 80);
+    font-size: 20px;
+}
+
+#home{
+
+    display: flex;
+    height: 700px;
+    flex-direction: column;
+}
+
+#home::before{
+    content: "";
+    background-image:url(https://cdn.pixabay.com/photo/2016/03/31/08/49/man-1292269_640.jpg);
+    height: 100%;
+    background-size:cover ;
+}
+
+
+.main{
+
+    border: 2px inset rgb(23, 78, 80);
+    padding: 10px;
+    position: absolute;
+    height: 70px;
+    left: 70%;
+    margin-top: 300px;
+
+}
+
+.main:hover{
+    box-shadow: 2px 4px black;
+    scale: 1.2;
+}
+
+.pic{
+    display: flex;
+    margin-top: 10px;
+}
+
+.pic img{
+
+    width: 600px;
+
+}
+
+.pic h4{
+
+    color: rgb(23, 78, 80);
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.pic p{
+
+    justify-content: center;
+}
+h3{
+    text-align: center;
+    margin-top: 10px;
+    background-color: rgb(7, 65, 7);
+    color: white;
+    padding: 10px;
+}
+
+.gallery{
+   margin: 10px;
+   box-shadow: 2px 4px 6px rgb(7, 65, 7);
+   border: 4px solid rgb(7, 65, 7) ;
+   
+}
+
+.gallery img{
+    width: 450px;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: 2px solid rgb(7, 65, 7);
+
+}
+
+.gallery img:hover{
+    scale: 1.2;
+}
+
+.row{
+    display: flex;
+}
+.box{
+    width: 350px;
+    height: 500px;
+    margin: 10px;
+    border: 2px inset rgb(7, 65, 7);
+    background: linear-gradient(to top,rgb(52, 122, 52)50%,white 50%);
+    background-size: 100% 200% ;
+    transition: all o.6s;
+}
+
+.box:hover{
+
+    background-position: left bottom;
+    box-shadow:2px 4px 6px rgb(7, 65, 7);
+}
+
+.box img{
+    width: 340px;
+    border-radius: 30%;
+   
+}
+
+.box p{
+    text-align: justify;
+    margin: 4px;
+}
+
+.box h4{
+
+    font-size: larger;
+    margin-left: 6px;
+}
+
+form{
+
+    width: 500px;
+    margin-left: 500px;
+}
+
+.input{
+
+    width: 100%;
+    margin: 10px;
+
+}
+
+button{
+
+    color: azure;
+    background-color: black;
+    cursor: pointer;
+}
+
+.cv{
+
+    background-color: black;
+    color: beige;
+    text-decoration: none;
+    padding: 5px;
+    margin-left: 70%;
+    border-radius: 40%;
+}
